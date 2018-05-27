@@ -1,0 +1,522 @@
+/* html rules
+--------------------*/
+
+/* id rules
+--------------------*/
+/*
+#sheet{
+    position:relative;
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+*/
+
+/*
+section{
+	min-width: 950px;
+	margin: 0 auto;
+}
+*/
+
+body{
+	font-family: sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#character_sheet{
+    width: 950px;
+    height: auto;
+	display: block;
+}
+
+
+/*
+Character
+*/
+
+#name{
+    position: absolute;
+    top: 35px;
+    left: 45px;
+}
+
+
+#profession{
+    position: absolute;
+    top: 128px;
+    left: 550px;
+	font-size: 1.2em;
+}
+
+
+
+#languageGroup{
+    position: absolute;
+    top: 575px;
+    left: 30px;
+    font-size: 0.9em;
+    width: 450px;
+}
+
+
+#strength{
+    position:absolute;
+    top: 320px;
+    left: 130px;
+	font-size: 1.8em;
+}
+
+#strengthMod{
+    position:absolute;
+    top: 320px;
+    left: 200px;
+	font-size: 1.8em;
+}
+
+#agility{
+    position:absolute;
+    top: 357px;
+    left: 130px;
+	font-size: 1.8em;
+}
+
+#agilityMod{
+    position:absolute;
+    top: 357px;
+    left: 200px;
+	font-size: 1.8em;
+}
+
+
+
+#stamina{
+    position:absolute;
+    top: 394px;
+    left: 130px;
+	font-size: 1.8em;
+}
+
+#staminaMod{
+    position:absolute;
+    top: 394px;
+    left: 200px;
+	font-size: 1.8em;
+}
+
+
+#personality{
+    position:absolute;
+    top: 431px;
+    left: 130px;
+	font-size: 1.8em;
+}
+
+#personalityMod{
+    position:absolute;
+    top: 431px;
+    left: 200px;
+	font-size: 1.8em;
+}
+
+
+#intelligence{
+    position:absolute;
+    top: 469px;
+    left: 130px;
+	font-size: 1.8em;
+}
+
+#intelligenceMod{
+    position:absolute;
+    top: 469px;
+    left: 200px;
+	font-size: 1.8em;
+}
+
+
+#luck{
+    position:absolute;
+    top: 508px;
+    left: 130px;
+	font-size: 1.8em;
+}
+
+#luckMod{
+    position:absolute;
+    top: 508px;
+    left: 200px;
+	font-size: 1.8em;
+}
+
+
+
+
+#baseAC{
+	position: absolute;
+    top: 245px;
+    left: 105px;
+	font-size: 1.7em;
+}
+
+
+
+#level{
+	position: absolute;
+    top: 175px;
+    left: 50px;
+	font-size: 1.2em;
+}
+
+
+#title{
+	position: absolute;
+    top: 175px;
+    left: 125px;
+	font-size: 1.2em;
+}
+
+
+#birthAugur{
+    position: absolute;
+    top: 556px;
+    left:  500px;
+	width: 260px;
+	font-size: 1em;
+}
+
+
+#hitPoints{
+	position: absolute;
+    top: 245px;
+    left: 235px;
+	font-size: 1.4em;
+}
+
+#actionDiceGroup{
+    position: absolute;
+    top: 175px;
+    left: 380px;
+	font-size: 1.2em;
+}
+
+
+#critDie{
+    position: absolute;
+    top: 175px;
+    left:  550px;
+	font-size: 1.2em;
+}
+
+#critTable{
+    position: absolute;
+    top: 175px;
+    left:  640px;
+	font-family: serif;
+	font-size: 1.3em;
+}
+
+
+
+#init{
+    position: absolute;
+    top: 220px;
+    left:  580px;
+	font-size: 1.8em;
+}
+
+#ref{
+    position: absolute;
+    top: 255px;
+    left:  580px;
+	font-size: 1.8em;
+}
+
+
+#fort{
+    position: absolute;
+    top: 290px;
+    left:  580px;
+	font-size: 1.8em;
+}
+
+#will{
+    position: absolute;
+    top: 325px;
+    left:  580px;
+	font-size: 1.8em;
+}
+
+
+
+#speed{
+    position: absolute;
+    top: 448px;
+    left:  420px;
+	font-size: 1.5em;
+}
+
+
+
+#fumbleDie{
+    position: absolute;
+    top: 485px;
+    left: 418px;
+	font-size: 1em;
+}
+
+
+#melee{
+    position: absolute;
+    top: 363px;
+    left:  366px;
+	font-size: 1.6em;
+}
+
+
+#meleeDamage{
+    position: absolute;
+    top: 363px;
+    left:  420px;
+	font-size: 1.6em;
+}
+
+
+#range{
+    position: absolute;
+    top: 393px;
+    left:  366px;
+	font-size: 1.6em;
+}
+
+
+
+#rangeDamage{
+    position: absolute;
+    top: 393px;
+    left:  420px;
+	font-size: 1.6em;
+}
+
+
+
+#artifactCheck{
+    position: absolute;
+    top: 175px;
+    left:  765px;
+    font-size: 1.3em;
+}
+
+#maxTech{
+    position: absolute;
+    top: 175px;
+    left:  890px;
+    font-size: 1.3em;
+}
+
+
+#mutantAppearance{
+    position: absolute;
+    top: 245px;
+    left:  300px;
+	width: 180px;
+	font-size: 1em;
+}
+
+#dieRollMethod{
+    position: absolute;
+    top: 1218px;
+    left:  25px;
+	font-size: 0.6em;
+}
+
+
+#physicalMutation0{
+    position: absolute;
+    top: 823px;
+    left:  100px;
+	font-size: 0.8em;
+}
+
+
+#physicalMutationType0{
+    position: absolute;
+    top: 823px;
+    left:  380px;
+	font-size: 0.8em;
+}
+
+
+#physicalMutationManifest0{
+    position: absolute;
+    top: 856px;
+    left:  35px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#physicalMutationEffect0{
+    position: absolute;
+    top: 906px;
+    left:  35px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#physicalMutation1{
+    position: absolute;
+    top: 948px;
+    left:  100px;
+	font-size: 0.8em;
+}
+
+
+
+#physicalMutationType1{
+    position: absolute;
+    top: 948px;
+    left:  380px;
+	font-size: 0.8em;
+}
+
+
+#physicalMutationManifest1{
+    position: absolute;
+    top: 979px;
+    left:  35px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#physicalMutationEffect1{
+    position: absolute;
+    top: 1029px;
+    left:  35px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+
+#physicalMutation2{
+    position: absolute;
+    top: 823px;
+    left:  560px;
+	font-size: 0.8em;
+}
+
+
+#physicalMutationType2{
+    position: absolute;
+    top: 823px;
+    left:  840px;
+	font-size: 0.8em;
+}
+
+
+#physicalMutationManifest2{
+    position: absolute;
+    top: 856px;
+    left:  490px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#physicalMutationEffect2{
+    position: absolute;
+    position: absolute;
+    top: 906px;
+    left:  490px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#physicalMutation3{
+    position: absolute;
+    top: 948px;
+    left:  560px;
+	font-size: 0.8em;
+}
+
+
+#physicalMutationType3{
+    position: absolute;
+    top: 948px;
+    left:  840px;
+	font-size: 0.8em;
+}
+
+
+#physicalMutationManifest3{
+    position: absolute;
+    top: 981px;
+    left:  490px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#physicalMutationEffect3{
+    position: absolute;
+    position: absolute;
+    top: 1031px;
+    left:  490px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+#defect0{
+    position: absolute;
+    top: 1088px;
+    left:  80px;
+	font-size: 0.8em;
+}
+
+
+#defectType0{
+    position: absolute;
+    top: 1088px;
+    left:  380px;
+	font-size: 0.8em;
+}
+
+
+#defectEffect0{
+    position: absolute;
+    top: 1120px;
+    left:  35px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#defect1{
+    position: absolute;
+    top: 1088px;
+    left:  542px;
+	font-size: 0.8em;
+}
+
+
+#defectType1{
+    position: absolute;
+    top: 1088px;
+    left:  845px;
+	font-size: 0.8em;
+}
+
+
+#defectEffect1{
+    position: absolute;
+    top: 1120px;
+    left:  490px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
