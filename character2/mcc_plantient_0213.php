@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Gen 2 MCC Manimal Character Generator</title>
+<title>Gen 2 MCC Plantient Character Generator</title>
  
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
 	<meta charset="UTF-8">
-	<meta name="description" content="Mutant Crawl Classics Manimal Character Generator. Goodman Games.">
+	<meta name="description" content="Mutant Crawl Classics Plantient Character Generator. Goodman Games.">
 	<meta name="keywords" content="Mutant Crawl Classics, Jim Wampler, Goodman Games,HTML5,CSS,JavaScript">
 	<meta name="author" content="Mark Tasaka 2018">
 		
@@ -1084,7 +1084,7 @@ function getPhysicalMutation(){
                   ["The plantient has 2 extra arms and gains a d16 additional action die for melee attacks only.",
                         function(obj) { obj["actionDice16"] += 1;}], 
                   ["The plantient has 2 extra legs and gains an additional 20’ to movement.",
-                        function(obj) { obj["speed"] += 20; obj["modifiedSpeed"] +=20; obj["modifiedSpeed"] +=20;}],
+                        function(obj) { obj["speed"] += 20; obj["modifiedSpeed"] +=20;}],
                   ["The plantient has 2 extra arms and gains a d20 additional action die for melee attacks only.",
                         function(obj) { obj["actionDice20"] += 1;}], 
                   ["The plantient has 2 extra arms and gains a d20 additional action die for melee attacks only; plantient also has 2 extra legs and gains + 30’ to movement.",
@@ -1113,7 +1113,7 @@ function getPhysicalMutation(){
                   ["The plantient is able to extend arms and legs 15’ and may engage in melee at that range; gains additional 15’ to movement. ",
                         function(obj) { obj["speed"] += 15; obj["modifiedSpeed"] +=15;}], 
                   ["The plantient is able to extend arms and legs 20’ and may engage in melee at that range; gains additional 20’ to movement; gains -1 to blunt force damage.",
-                        function(obj) { obj["speed"] += 20; obj["modifiedSpeed"] +=20; obj["modifiedSpeed"] +=20;}], 
+                        function(obj) { obj["speed"] += 20; obj["modifiedSpeed"] +=20;}], 
                   ["The plantient is able to extend arms and legs 30’ and may engage in melee at that range; gains additional 30’ to movement; gains -1d3 to blunt force damage.",
                         function(obj) { obj["speed"] += 30; obj["modifiedSpeed"] +=30;}], 
                   ["The plantient is able to extend entire body 40’ and may engage in melee at that range; gains additional 40’ to movement; gains -1d6 to any blunt force dmg.",
@@ -1168,7 +1168,7 @@ function getPhysicalMutation(){
                   
                   ["The plantient towers over others at approximately 10’ in height; plantient gains +5 to Strength, AC  -4, movement speed is 50’, and HD changes to d10.", function(obj) {
                       hitPointsEachLevelLimit = 10; 
-                      obj["acBonus"] -= 4; obj["strength"] += 5; obj["speed"] += 20; obj["modifiedSpeed"] +=20; obj["modifiedSpeed"] +=20;
+                      obj["acBonus"] -= 4; obj["strength"] += 5; obj["speed"] += 20; obj["modifiedSpeed"] +=20;
                       //obj["hitPoints"] = hitPoints (plantient, staminaModifier, hitPointAdjustPerLevel(luckySign, luckModifier));
                       //return -1;
                   }], 
